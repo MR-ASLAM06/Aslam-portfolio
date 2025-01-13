@@ -93,4 +93,35 @@
 @media screen and  (max-width: 320px){
 	
 }/*max-width:320px*/
+/* Mobile styles */
+@media (max-width: 767px) {
+    body {
+        font-size: 14px;
+    }
+    .container {
+        width: 100%;
+        padding: 10px;
+    }
+}
 
+/* Tablet styles */
+@media (min-width: 768px) and (max-width: 1023px) {
+    body {
+        font-size: 16px;
+    }
+    .container {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+/* Desktop styles */
+@media (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    .container {
+        width: 80%;
+        padding: 30px;
+    }
+}
